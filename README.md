@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<Derya-E>/docker-instance/aws"
+    source = "Derya-E/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
